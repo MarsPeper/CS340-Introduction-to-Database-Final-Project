@@ -1,0 +1,173 @@
+/*
+CSS
+I added some special effects/animation styling for the navigation bar when 
+the user is scrolled all the way to the top
+-- Braden Lee
+fgdsgs
+*/
+
+
+.content {
+  /*width: 1800px;
+  height:1800px;
+  overflow: visible; */
+}
+
+.blog-slide{
+  padding: 10px;
+  position: relative;
+  right: -85px;
+  width:1650px;
+  height: 600px;
+}
+
+.blog-slide.one {
+  margin: 5px;
+  border: 3px solid #C6CA53;
+}
+
+.blog-slide.two {
+  margin: 5px;
+  border: 3px solid #C6CA53;
+}
+
+.blog-slide.three {
+  margin: 5px;
+  border: 3px solid #C6CA53;
+}
+
+.blog-slide.four {
+  margin: 5px;
+  border: 3px solid #C6CA53;
+}
+
+.blog-slide.five {
+  margin: 5px;
+  border: 3px solid #C6CA53;
+}
+
+.blog-slide.six {
+  margin: 5px;
+  border: 3px solid #C6CA53;
+}
+
+.test-blog {
+  position: relative;
+  right: -60px;
+  color:white;
+}
+
+.para.one {
+  padding: 10px;
+  width: fit-content;
+  border: 3px solid #C6CA53;
+  position: relative;
+  right: -100px;
+  color:#494949;
+}
+
+.para.jobtitle {
+  padding: 10px;
+  width: fit-content;
+  border: 3px solid #C6CA53;
+  position: relative;
+  right: -100px;
+  color:#494949;
+}
+
+.para.two {
+  width: 70vw;
+  border: 3px solid #C6CA53;
+  position: relative;
+  right: -100px;
+  color: #494949;
+}
+
+.para.three {
+  padding: 10px;
+  width: 70vw;
+  border: 3px solid #C6CA53;
+  position: relative;
+  right: -100px;
+  color: #494949;
+}
+
+.blog-side.one .test-blog .ul-list.one .li-list.one {
+  position: relative;
+  right: -100px;
+  color:yellow;
+}
+
+.blog-border {
+  position: relative;
+  right: -10px;
+  padding:20px;
+  width:90%;
+  height:90%;
+}
+
+.blog-slide.one .test-blog .blog-border {
+  padding: 16px;
+}
+
+.blog-slide-parent {
+  height: 1500px;
+  width: 1500px;
+}
+
+.blog-slide-inner-wrapper {
+  display:flex;
+  flex-direction:column;
+  width: 1800px;
+  height: 1500px;
+}
+
+.blog-slide-outer-wrapper {
+  width:1800px;
+  height:1500px;
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style:none;
+}
+
+::-webkit-scrollbar {
+  display:none;
+  width: 0;
+}
+
+.ul-list.one {
+  padding: 10px;
+  position: relative;
+  right: -100px;
+  color:#494949;
+}
+
+.para.one {
+  padding: 10px;
+  color:#494949;
+}
+
+.para.one:hover {
+  text-decoration: underline;
+  color:#494949;
+}
+
+.para.two {
+  padding: 10px;
+  color: #494949;
+  width: fit-content;
+}
+
+.blog-side.one .test-blog .ul-list.one .li-list.one {
+  color:yellow;
+}
+
+img.blog-border {
+  width: 900px;
+  height: 500px;
+  border: 3px solid #C6CA53;
+  border-radius: 4px;
+}

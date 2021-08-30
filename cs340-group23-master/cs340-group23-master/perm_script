@@ -1,0 +1,4 @@
+ls -l
+
+chmod o+r about.php projects.php change_password.php create_account.php create_post.php create_project.php edit_post.php edit_profile.php employment.php index.php invest.php jobs.css jobs.php login.php logout.php make_investment.php profile.php search.php stylesheet.css
+ls -l
